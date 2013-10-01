@@ -9,6 +9,11 @@ WriteMakefile(
     'Image::Imlib2' => 2.03,
     'Mojolicious' => '4.00',
   },
+  META_MERGE => {
+    resources => {
+      repository => 'https://github.com/jhthorsen/mojolicious-plugin-shotwell',
+    },
+  },
   test => {
     TESTS => 't/*.t',
   },

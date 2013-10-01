@@ -40,5 +40,10 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.0402"
+   "resources" : {
+      "repository" : {
+         "url" : "https://github.com/jhthorsen/mojolicious-plugin-shotwell"
+      }
+   },
+   "version" : "0.0403"
 }

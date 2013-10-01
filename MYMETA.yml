@@ -22,4 +22,6 @@ requires:
   Image::EXIF: 2.01
   Image::Imlib2: 2.03
   Mojolicious: 4.00
-version: 0.0402
+resources:
+  repository: https://github.com/jhthorsen/mojolicious-plugin-shotwell
+version: 0.0403
