@@ -38,7 +38,7 @@ $t->get_ok('/event-list')
   ->element_exists('ul > li[id="24"]')
   ->element_exists('ul > li[id="24"] a[href="/by-event/24/SomeEvent"]')
   ->text_is('ul > li[id="24"] a[href="/by-event/24/SomeEvent"]', 'Some-Event')
-  ->text_is('ul > li[id="24"] small', 'Mon Jul 8 11:53:52 2013')
+  ->text_like('ul > li[id="24"] small', qr{Mon Jul 8 \d\d:53:52 2013})
   ;
 
 $t->get_ok('/by-event/24/Some-event.json')

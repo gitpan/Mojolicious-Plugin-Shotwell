@@ -1,5 +1,8 @@
 Revision history for Mojolicious-Plugin-Shotwell
 
+0.0404   Sun Nov 24 20:41:59 2013
+       * Fix t/paths.t
+
 0.0403   Tue Oct  1 12:33:50 2013
        * Add repository URL to Makefile.PL
 
