@@ -4,7 +4,7 @@
       "Jan Henning Thorsen <jhthorsen@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.120351",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "unknown"
    ],
@@ -45,5 +45,5 @@
          "url" : "https://github.com/jhthorsen/mojolicious-plugin-shotwell"
       }
    },
-   "version" : "0.0404"
+   "version" : "0.0405"
 }
