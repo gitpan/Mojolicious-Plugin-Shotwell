@@ -1,5 +1,8 @@
 Revision history for Mojolicious-Plugin-Shotwell
 
+0.05     Fri May 30 07:53:02 2014
+       * Compatible with Mojolicious 5.0
+
 0.0405   Mon Dec 30 16:39:42 2013
        * Fix when() is experimental
 
